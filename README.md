@@ -1,6 +1,6 @@
 # Workplace Helpdesk System (Full Data)
 
-This is the final CV-ready demo of the Workplace Helpdesk System — a facility & ticket management app with rich dummy data.
+Workplace Helpdesk System is a facility and ticket management web app where employees can log in, raise complaints, and track ticket status, while admins manage all tickets, assets, and users. It includes dashboards with charts, recent activity, and responsive design, built using HTML, CSS, JS, Node.js, and Express.
 
 ## Features
 - Login & Signup (localStorage demo)
