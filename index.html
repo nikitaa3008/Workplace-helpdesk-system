@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Workplace Helpdesk</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <h2>Workplace<br>Helpdesk</h2>
+    <nav>
+      <a class="nav active" data-view="dashboard">Dashboard</a>
+      <a class="nav" data-view="tickets">Tickets</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <h1 id="pageTitle">Dashboard</h1>
+      <button id="btnAdd">+ Log Issue</button>
+    </header>
+
+    <section class="content" id="pageContent"></section>
+  </main>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
