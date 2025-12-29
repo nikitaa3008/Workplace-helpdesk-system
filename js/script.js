@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded',()=>{
 function seed(){
   if(!localStorage.getItem(KEY)){
     localStorage.setItem(KEY,JSON.stringify([
-      {id:1,title:'AC not working',email:'nikita@pro.com',status:'Pending'},
-      {id:2,title:'Printer jam',email:'akshay@demo.com',status:'In-progress'},
-      {id:3,title:'Broken chair',email:'nikita@pro.com',status:'Completed'}
+      {id:1,title:'AC not working',email:'nikita@gmail.com',status:'Pending'},
+      {id:2,title:'Printer jam',email:'cbsingh@gmal.com',status:'In-progress'},
+      {id:3,title:'Broken chair',email:'nikita@gmail.com',status:'Completed'}
     ]));
   }
 }
